@@ -4,7 +4,8 @@ title: "用腾讯轻量云搭建MediaWiki百科"
 date:   2022-05-27
 tags: [wiki,生物信息]
 comments: true
-author: Yangming
+author: Si Yangming
+toc : true
 ---
 
 [MediaWiki](https://blog.idc.moe/go/aHR0cHM6Ly93d3cubWVkaWF3aWtpLm9yZy93aWtpL01lZGlhV2lraQ) 是 Wikipedia 以及世界各地社区和公司部署的许多 wiki 背后的软件。 它常常被大公司用来做文档和百科全书。 本篇文章将教学如何在腾讯云轻量应用服务器上安装 MediaWiki。
