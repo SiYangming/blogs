@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R语言与生信应用5-R简介：R语言扩展包.md"
+title: "R语言5-R简介：R语言扩展包.md"
 date:   2019-04-17
 tags: [R语言]
 comments: true
