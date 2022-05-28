@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "解决github pages构建比克markdown文件图片不显示"
+title: "解决github pages构建博客markdown文件图片不显示"
 date:   2022-05-28
 tags: [markdown,github,blog]
 comments: true
