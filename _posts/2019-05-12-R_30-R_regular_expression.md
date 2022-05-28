@@ -401,11 +401,3 @@ sore shoulders, stupid ergonomics
 *   正则表达式在许多不同的编程语言中使用，不只是R。
 *   正则表达式由普通字符和元字符组成，代表一组或一类字符串或词句
 *   通过正则表达式提取数据是一种很便捷的方式
-
-课程分享
-生信技能树全球公益巡讲
-（https://mp.weixin.qq.com/s/E9ykuIbc-2Ja9HOY0bn_6g）
-B站公益74小时生信工程师教学视频合辑
-（https://mp.weixin.qq.com/s/IyFK7l_WBAiUgqQi8O7Hxw）
-招学徒：
-（https://mp.weixin.qq.com/s/KgbilzXnFjbKKunuw7NVfw）
