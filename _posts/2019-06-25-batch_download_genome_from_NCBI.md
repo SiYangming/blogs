@@ -2,7 +2,7 @@
 layout: post
 title: "NCBI批量下载基因组序列"
 date:   2020-06-25
-tags: [基因组,序列,NCBI]
+tags: [基因组,DNA序列,NCBI]
 comments: true
 author: Si Yangming
 toc : true
