@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R语言与生信应用3-R简介：R语言学习资源"
+title: "R语言3-R简介：R语言学习资源"
 date:   2019-04-15
 tags: [R语言]
 comments: true
