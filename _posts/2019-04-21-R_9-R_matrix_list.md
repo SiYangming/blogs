@@ -80,11 +80,3 @@ y   10   11   12
 [[4]]
 [1] 1+4i
 ```
-
-课程分享
-生信技能树全球公益巡讲
-（https://mp.weixin.qq.com/s/E9ykuIbc-2Ja9HOY0bn_6g）
-B站公益74小时生信工程师教学视频合辑
-（https://mp.weixin.qq.com/s/IyFK7l_WBAiUgqQi8O7Hxw）
-招学徒：
-（https://mp.weixin.qq.com/s/KgbilzXnFjbKKunuw7NVfw）
