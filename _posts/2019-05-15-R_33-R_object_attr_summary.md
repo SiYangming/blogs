@@ -303,11 +303,3 @@ what.is <- function(x, show.all=FALSE) {
 * [https://stat.ethz.ch/R-manual/R-devel/doc/manual/R-lang.html](https://stat.ethz.ch/R-manual/R-devel/doc/manual/R-lang.html)
 * [https://stackoverflow.com/questions/6258004/types-and-classes-of-variables](https://stackoverflow.com/questions/6258004/types-and-classes-of-variables)
 * [https://stackoverflow.com/questions/8855589/a-comprehensive-survey-of-the-types-of-things-in-r-mode-and-class-and-type](https://stackoverflow.com/questions/8855589/a-comprehensive-survey-of-the-types-of-things-in-r-mode-and-class-and-type)
-
-课程分享
-生信技能树全球公益巡讲
-（https://mp.weixin.qq.com/s/E9ykuIbc-2Ja9HOY0bn_6g）
-B站公益74小时生信工程师教学视频合辑
-（https://mp.weixin.qq.com/s/IyFK7l_WBAiUgqQi8O7Hxw）
-招学徒：
-（https://mp.weixin.qq.com/s/KgbilzXnFjbKKunuw7NVfw）
