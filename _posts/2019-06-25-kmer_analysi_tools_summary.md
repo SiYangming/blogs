@@ -2,7 +2,7 @@
 layout: post
 title: "序列分析之Kmer分析：Kmer概念与工具汇总"
 date:   2019-06-25
-tags: [基因组,Kmer,NCBI,DNA序列]
+tags: [基因组,Kmer,DNA序列]
 comments: true
 author: Si Yangming
 toc : true
