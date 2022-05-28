@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R语言14-R语法：R文件操作2”
+title: "R语言14-R语法：R文件操作2"
 date:   2019-04-26
 tags: [R语言]
 comments: true
