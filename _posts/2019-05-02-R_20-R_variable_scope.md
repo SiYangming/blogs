@@ -13,7 +13,7 @@ toc : true
 对相同的变量名多次赋值时，R如何识别该变量名所对应的值？
 一个例子：
 
-```source-r
+```R
 > lm
 function (formula, data, subset, weights, na.action, method = "qr", 
     model = TRUE, x = FALSE, y = FALSE, qr = TRUE, singular.ok = TRUE, 
@@ -37,7 +37,7 @@ function(x) { x * x }
 
 `search` 函数可以查看R的变量搜索列表。
 
-```source-r
+```R
 > search()
 [1] ".GlobalEnv"        "package:stats"     "package:graphics"
 [4] "package:grDevices" "package:utils"     "package:datasets"
@@ -50,8 +50,6 @@ function(x) { x * x }
 *   使用 `library` 函数加载扩展包时，该扩展包的命名空间会默认排在搜索列表的第二位，其他变量列表依次后移。
 *   R中函数与非函数的命名空间是分离的，可以同时存在名称为c的R对象和函数。
 
-* * *
-
 ## 变量的作用域
 
 R语言的作用域规则与S语言截然不同。
@@ -61,11 +59,9 @@ R语言的作用域规则与S语言截然不同。
 *   作用域规则就是R在如何在变量列表中搜寻变量的规则。
 *   Lexical scoping有助于简化统计计算。 
 
-* * *
-
 ## Lexical Scoping
 一个示例：
-```source-r
+```R
 f <- function(x, y) {
         x^2 + y / z
 }
@@ -83,20 +79,16 @@ R的作用域规则：*在定义函数的环境中搜索自由变量的值*
 *   没有母环境的环境是空环境。
 *   函数 + 环境 = *闭包* 或 *函数闭包*（函数可以使用函数之外定义的自由变量）。
 
-* * *
-
 搜索自由变量的值：
 *   如果在函数定义的环境中没有找到变量名对应的值，接着搜索母环境的变量。
 *   依次搜索环境的母环境，一直到*顶层环境*；顶层环境一般是全局环境（工作空间）或者扩展包的命名空间。
 *   顶层环境后，继续搜索直到碰到*空环境*。如果到达空环境，还没找到变量名对应的值，R就会报错。
 
-* * *
-
 如果在全局环境中定义函数，自由变量的值可以在用户的工作空间中找到，这是大多数情况下的正确做法。然而在R中，允许在函数中定义函数（类似C的编程语言不允许这样做）。在这种情况下，函数的定义环境就是其他函数的函数体。
 
 * * *
 在函数中定义另一个函数：
-```source-r
+```R
 make.power <- function(n) {
         pow <- function(x) {
                 x^n 
@@ -105,7 +97,7 @@ make.power <- function(n) {
 }
 ```
 该函数返回函数体内定义的另一个函数作为返回值。
-```source-r
+```R
 > cube <- make.power(3)
 > square <- make.power(2)
 > cube(3)
@@ -118,7 +110,7 @@ make.power <- function(n) {
 
 ## 探索函数闭包
 函数的环境：
-```source-r
+```R
 > ls(environment(cube))
 [1] "n"   "pow"
 > get("n", environment(cube))
@@ -134,7 +126,7 @@ make.power <- function(n) {
 
 ## 静态作用域vs动态作用域
 声明两个函数：
-```source-r
+```R
 y <- 10
 
 f <- function(x) {
@@ -157,10 +149,8 @@ g <- function(x) {
     *   R中的调用环境称为*parent frame*。
     *   根据动态作用规则 `y` 值应当为2。
 
-* * *
-
 当一个函数在全局环境环境中声明并调用时，定义环境和调用环境是相同的，有时表现出动态作用的特征。
-```source-r
+```R
 > rm(list=ls())
 > g <- function(x) { 
 a <- 3
@@ -181,14 +171,10 @@ Error in g(2) : object "y" not found
 *   Python
 *   Common Lisp
 
-* * *
-
 ## Lexical Scoping的重要性
 
 *   R中的所有对象都存储在内存中，所有函数都需要一个指向该函数定义环境的指针（可以在任何地方）。
 *   S-PLUS一般在全局工作空间中搜索自由变量，因此所有对象可以储存在磁盘上，因为所有函数的定义环境都相同。
-
-* * *
 
 ## 应用：优化
 
@@ -196,12 +182,10 @@ Error in g(2) : object "y" not found
 *   目标函数可能依赖于除参数之外的许多东西(如 *data*)
 *   当对程序进行优化，用户更关注特定的参数
 
-* * *
-
 ## 最大化标准似然
 构建函数：
 
-```source-r
+```R
 make.NegLogLik <- function(data, fixed=c(FALSE,FALSE)) {
         params <- fixed
         function(p) {
@@ -219,7 +203,7 @@ make.NegLogLik <- function(data, fixed=c(FALSE,FALSE)) {
 
 * * *
 
-```source-r
+```R
 > set.seed(1); normals <- rnorm(100, 1, 2)
 > nLL <- make.NegLogLik(normals)
 > nLL
@@ -241,7 +225,7 @@ function(p) {
 
 ## 参数估计
 
-```source-r
+```R
 > optim(c(mu = 0, sigma = 1), nLL)$par
       mu    sigma
 1.218239 1.787343
@@ -249,7 +233,7 @@ function(p) {
 
 当σ = 2时
 
-```source-r
+```R
 > nLL <- make.NegLogLik(normals, c(FALSE, 2))
 > optimize(nLL, c(-1, 3))$minimum
 [1] 1.217775
@@ -257,7 +241,7 @@ function(p) {
 
 当μ = 1时
 
-```source-r
+```R
 > nLL <- make.NegLogLik(normals, c(1, FALSE))
 > optimize(nLL, c(1e-6, 10))$minimum
 [1] 1.800596
@@ -267,21 +251,21 @@ function(p) {
 
 ## 绘制最大似然图
 
-```source-r
+```R
 nLL <- make.NegLogLik(normals, c(1, FALSE))
 x <- seq(1.7, 1.9, len = 100)
 y <- sapply(x, nLL)
 plot(x, exp(-(y - min(y))), type = "l")
 ```
-![image.png](https://upload-images.jianshu.io/upload_images/7246523-042b6d5b51355cb6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://raw.githubusercontent.com/SiYangming/blogs/master/images/2019-05-02-R_20-R_variable_scope/1240-20220528160825305.png)
 
-```source-r
+```R
 nLL <- make.NegLogLik(normals, c(FALSE, 2))
 x <- seq(0.5, 1.5, len = 100)
 y <- sapply(x, nLL)
 plot(x, exp(-(y - min(y))), type = "l")
 ```
-![image.png](https://upload-images.jianshu.io/upload_images/7246523-f3e18fa68648cb8b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://raw.githubusercontent.com/SiYangming/blogs/master/images/2019-05-02-R_20-R_variable_scope/1240-20220528160829873.png)
 
 * * *
 
@@ -291,5 +275,4 @@ plot(x, exp(-(y - min(y))), type = "l")
 *   对于交互式和探索的工作不需要提供太长的参数列表
 *   代码可以更简洁
 
-扩展阅读：
- Robert Gentleman and Ross Ihaka (2000). “Lexical Scope and Statistical Computing,” *JCGS*, 9, 491–508.
+扩展阅读：Robert Gentleman and Ross Ihaka (2000). “Lexical Scope and Statistical Computing,” *JCGS*, 9, 491–508.
