@@ -164,4 +164,15 @@ MediaWiki 支持多种数据库选项，包括 MariaDB、MySQL 和 PostgreSQL。
 
 5. 在浏览器中再次访问 `index.php` 以确认 MediaWiki 已成功安装。
 
+## 参考资料
+
+* 用腾讯轻量云搭建 MediaWiki 百科程序 - 主机萌站：[https://blog.idc.moe/archives/build-mediawiki-on-server.html](https://blog.idc.moe/archives/build-mediawiki-on-server.html)
+* Download - MediaWiki：[https://www.mediawiki.org/wiki/Download](https://www.mediawiki.org/wiki/Download)
+* Manual:Extensions - MediaWiki：[https://www.mediawiki.org/wiki/Manual:Extensions](https://www.mediawiki.org/wiki/Manual:Extensions)
+* 扩展手册 - MediaWiki：[https://www.mediawiki.org/wiki/Manual:Extensions/zh?tableofcontents=1](https://www.mediawiki.org/wiki/Manual:Extensions/zh?tableofcontents=1)
+* 分类:按分类排列的扩展 - MediaWiki：[https://www.mediawiki.org/wiki/Category:Extensions_by_category/zh](https://www.mediawiki.org/wiki/Category:Extensions_by_category/zh)
+* 手册:备份一个维基 - MediaWiki：[https://www.mediawiki.org/wiki/Manual:Backing_up_a_wiki/zh?tableofcontents=1](https://www.mediawiki.org/wiki/Manual:Backing_up_a_wiki/zh?tableofcontents=1)
+* mediawiki的备份、升级与恢复：[https://blog.csdn.net/joei4cm/article/details/83982605](https://blog.csdn.net/joei4cm/article/details/83982605)
+
 参考资料：[https://blog.idc.moe/archives/build-mediawiki-on-server.html](https://blog.idc.moe/archives/build-mediawiki-on-server.html)
+
