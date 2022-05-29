@@ -12,7 +12,10 @@ toc : true
 
 ### windows系统
 
-软件先锋-软件下载-软件下载平台-电脑软件-电脑软件下载：[https://soft.macxf.com/](https://soft.macxf.com/)
+* 软件先锋-软件下载-软件下载平台-电脑软件-电脑软件下载：[https://soft.macxf.com/](https://soft.macxf.com/)
+* win10修改中文用户名：[https://blog.csdn.net/weixin_39112840/article/details/86351133](https://blog.csdn.net/weixin_39112840/article/details/86351133)
+* windows修改中文用户名路径：[https://www.csdn.net/tags/OtTagg2sNjExNDAtYmxvZwO0O0OO0O0O.html](https://www.csdn.net/tags/OtTagg2sNjExNDAtYmxvZwO0O0OO0O0O.html)
+* win10如何修改C:\Users\下用户名为中文的问题：[https://blog.csdn.net/wtwcsdn123/article/details/81916368](https://blog.csdn.net/wtwcsdn123/article/details/81916368)
 
 ### mac系统
 
