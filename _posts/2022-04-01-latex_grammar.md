@@ -52,3 +52,6 @@ Latex和markdown：[https://ctan.org/pkg/markdown](https://ctan.org/pkg/markdown
 
 - [https://www.chikrii.com/products/tex2word/](https://www.chikrii.com/products/tex2word/)
 - [https://tex.stackexchange.com/questions/555262/how-to-convert-from-latex-to-word-properly](https://tex.stackexchange.com/questions/555262/how-to-convert-from-latex-to-word-properly)
+- LaTeX to Word: TeX2Word: Chikrii Softlab：[https://www.chikrii.com/products/tex2word/](https://www.chikrii.com/products/tex2word/)
+- Converting Microsoft Word to LaTeX, LaTeX to Word, MathType to Equation：[https://www.grindeq.com/index.php?p=home&lang=en](https://www.grindeq.com/index.php?p=home&lang=en)
+
