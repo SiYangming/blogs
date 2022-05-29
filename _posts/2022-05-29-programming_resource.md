@@ -33,10 +33,10 @@ toc : true
 
 ## weka
 
-* Weka 3 - Data Mining with Open Source Machine Learning Software in Java：https://www.cs.waikato.ac.nz/ml/weka/
+* Weka 3 - Data Mining with Open Source Machine Learning Software in Java：[https://www.cs.waikato.ac.nz/ml/weka/](https://www.cs.waikato.ac.nz/ml/weka/)
 
 ## 常用编程环境镜像地址
 
 * 清华大学开源软件镜像站：[https://mirrors.tuna.tsinghua.edu.cn/](https://mirrors.tuna.tsinghua.edu.cn/)
   * anaconda：[https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/](https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/)
-* bioconda：https://anaconda.org/bioconda
+* bioconda：[https://anaconda.org/bioconda](https://anaconda.org/bioconda)
