@@ -45,6 +45,19 @@ toc : true
 
 - Paper助手：[http://www.paper-assistant.com/](http://www.paper-assistant.com/)
 - R Pupsure文章检查网站：[https://pubsure.researcher.life/](https://pubsure.researcher.life/)
+- 论文写作指导：https://library.sacredheart.edu/c.php?g=29803
+- power thesaurus：https://www.powerthesaurus.org/
+- thesaurus：https://www.thesaurus.com/
+- 知网学术翻译助手：http://dict.cnki.net.https.gzlib.proxy.chaoxing.com/index
+- 知网学术字典：https://cidian.cnki.net/
+- grammarly：https://app.grammarly.com/
+- StyleWriter：https://www.stylewriter-usa.com/
+- Ginger：https://www.gingersoftware.com/
+- NOUNPLUS：https://www.nounplus.net/
+- iThenticate查重：https://www.ithenticate.com/
+- 科研者之家：https://www.home-for-researchers.com/static/index.html#/
+- AI写作注释：https://www.home-for-researchers.com/paper/index.html#/
+- 仙桃学术写作工具：https://www.xiantao.love/
 
 ## 在线免费文档编辑
 
