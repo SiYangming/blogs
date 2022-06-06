@@ -34,6 +34,7 @@ Python语言有超过12万个第三方库，覆盖信息技术几乎所有领域
 * PyPDF2-一个能够分割、合并和转换PDF页面的库。
 * openpyxl- 一个处理Microsoft Excel文档的Python第三方库，它支持读写Excel的xls、xlsx、xlsm、xltx、xltm。
 * python-docx-一个处理Microsoft Word文档的Python第三方库，它支持读取、查询以及修改doc、docx等格式文件，并能够对Word常见样式进行编程设置。
+* updog-个人网盘：[一分钟搞定属于自己的私人网盘](https://blog.csdn.net/zhangchilei/article/details/107243463#comments_18005288)
 
 ## 数据分析及可视化
 
