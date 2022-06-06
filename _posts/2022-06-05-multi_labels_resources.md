@@ -2,7 +2,7 @@
 layout: post
 title: "多标签机器学习的一些参考资料"
 date:   2022-06-05
-tags: [科研写作]
+tags: [AI,机器学习,多标签学习,人工智能]
 comments: true
 author: Si Yangming
 toc : true
