@@ -13,6 +13,7 @@ toc : true
 * bookdown开源电子书（基于R和RStudio）：[https://bookdown.org/home/](https://bookdown.org/home/)
 
 * Zenodo开源电子书（基于markdown）：[https://zenodo.org/](https://zenodo.org/)
+* 开源数据发表：https://figshare.com/account/home
 * Obsidian（markdown文件管理）：[https://obsidian.md/](https://obsidian.md/)
 
 ## 文献管理工具
