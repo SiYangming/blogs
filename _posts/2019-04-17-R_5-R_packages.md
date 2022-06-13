@@ -73,14 +73,15 @@ library(devtools)
 install_github('hadlley/dplyr')
 ```
 ## githubinstall安装github上的扩展包
-https://cran.r-project.org/package=githubinstall
+[https://cran.r-project.org/package=githubinstall](https://cran.r-project.org/package=githubinstall)
+
 ```R
 #install.packages('githubinstall') 
 library(githubinstall)
 githubinstall('AnomalyDetection')
 ```
 ## R扩展包储存的镜像地址
-* CRAN的镜像列表：https://mirrors.tuna.tsinghua.edu.cn/CRAN/
-* Bioconductor镜像列表：http://www.bioconductor.org/about/mirrors/
-* GitHub也有很多开发中的R包：https://github.com/
+* CRAN的镜像列表：[https://mirrors.tuna.tsinghua.edu.cn/CRAN/](https://mirrors.tuna.tsinghua.edu.cn/CRAN/)
+* Bioconductor镜像列表：[http://www.bioconductor.org/about/mirrors/](http://www.bioconductor.org/about/mirrors/)
+* GitHub也有很多开发中的R包：[https://github.com/](https://github.com/)
 
