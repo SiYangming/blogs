@@ -12,7 +12,7 @@ BiocManager管理bioconductor中的扩展包
 devtools安装开发中扩展包
 githubinstall安装github上的扩展包
 ## utils包中的*.packages函数
-```R
+```
 ## 修改CRAN的镜像源（官方的软件源在国外，速度会受影响）
 options("repos" = c(CRAN="https://mirrors.tuna.tsinghua.edu.cn/CRAN/"))
 
@@ -41,7 +41,7 @@ abc                           "abc"                           "2.1"
 > remove.packages("PackageName")
 ```
 ## BiocManager：管理bioconductor中的扩展包
-```R
+```
 if (!"BiocManager" %in% rownames(installed.packages()))
      install.packages("BiocManager")
 ## 修改biocondutor的镜像
@@ -62,14 +62,14 @@ https://cran.r-project.org/package=devtools
 
 devtools包含了一系列用来开发R包的工具。
 
-```R
+```
 # install.packages("devtools")
 library(devtools)
 install_github('hadlley/dplyr')
 ```
 ## githubinstall安装github上的扩展包
 https://cran.r-project.org/package=githubinstall
-```R
+```
 #install.packages('githubinstall') 
 library(githubinstall)
 githubinstall('AnomalyDetection')
