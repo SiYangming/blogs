@@ -11,6 +11,8 @@ toc : true
 BiocManager管理bioconductor中的扩展包
 devtools安装开发中扩展包
 githubinstall安装github上的扩展包
+
+
 ## utils包中的*.packages函数
 ```
 ## 修改CRAN的镜像源（官方的软件源在国外，速度会受影响）
