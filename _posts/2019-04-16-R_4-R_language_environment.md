@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R语言4-R简介：R语言的运行环境.md"
+title: "R语言4-R简介：R语言的运行环境"
 date:   2019-04-16
 tags: [R语言]
 comments: true
