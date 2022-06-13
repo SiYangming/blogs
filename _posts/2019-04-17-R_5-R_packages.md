@@ -15,11 +15,32 @@ toc : true
 >
 > githubinstall安装github上的扩展包
 
+## 镜像源
 
-## utils包中的*.packages函数
+* CRAN的镜像列表：[https://mirrors.tuna.tsinghua.edu.cn/CRAN/mirrors.html](https://mirrors.tuna.tsinghua.edu.cn/CRAN/mirrors.html)
+* Bioconductor镜像列表：[http://www.bioconductor.org/about/mirrors/](http://www.bioconductor.org/about/mirrors/)
+* GitHub也有很多开发中的R包：[https://github.com/](https://github.com/)
+
 ```R
 ## 修改CRAN的镜像源（官方的软件源在国外，速度会受影响）
+# 清华镜像
 options("repos" = c(CRAN="https://mirrors.tuna.tsinghua.edu.cn/CRAN/"))
+options(BioC_mirror="https://mirrors.tuna.tsinghua.edu.cn/bioconductor")
+# 中科大镜像
+options(repos = c(USTC="https://mirrors.ustc.edu.cn/CRAN/"))
+options(BioC_mirror="https://mirrors.ustc.edu.cn/bioc/")
+```
+
+清华bioconductor镜像网址：[https://mirrors.tuna.tsinghua.edu.cn/help/bioconductor/](https://mirrors.tuna.tsinghua.edu.cn/help/bioconductor/)
+
+清华CRAN镜像网址：[https://mirrors.tuna.tsinghua.edu.cn/help/CRAN/](https://mirrors.tuna.tsinghua.edu.cn/help/CRAN/)
+
+中科大CRAN镜像网址：[https://mirrors.ustc.edu.cn/help/CRAN.html](https://mirrors.ustc.edu.cn/help/CRAN.html)
+
+## utils包中的*.packages函数
+
+```R
+
 
 ## 列出所有当前可用扩展包
 > available.packages()
@@ -80,8 +101,31 @@ install_github('hadlley/dplyr')
 library(githubinstall)
 githubinstall('AnomalyDetection')
 ```
-## R扩展包储存的镜像地址
-* CRAN的镜像列表：[https://mirrors.tuna.tsinghua.edu.cn/CRAN/](https://mirrors.tuna.tsinghua.edu.cn/CRAN/)
-* Bioconductor镜像列表：[http://www.bioconductor.org/about/mirrors/](http://www.bioconductor.org/about/mirrors/)
-* GitHub也有很多开发中的R包：[https://github.com/](https://github.com/)
+## R包安装常见错误
 
+### 第一个：`Error in readRDS(file) : unknown input format`
+
+1. 删除.Rhistory和.RData文件
+
+2. 运行 `update.packages()`
+
+3. ```R
+   # List the library paths
+   # The issue is likely to be in the first directory
+   paths = .libPaths()
+   
+   ## Try and detect bad files
+   list.files(paths, 
+          pattern = "^00LOCK*|*\\.rds$|*\\.RDS$",
+          full.names = TRUE)
+   
+   ## List files of size 0
+   l = list.files(paths, full.names = TRUE)
+   l[sapply(l, file.size) == 0]
+   ```
+
+参考：https://stackoverflow.com/questions/6473831/readrdsfile-in-r
+
+## 更新日志
+
+2022年6月13日：更新镜像和包的安装，R包安装常见错误。
