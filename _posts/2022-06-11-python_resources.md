@@ -31,6 +31,7 @@ Python官方文档中文：[https://docs.python.org/zh-cn/3/library/2to3.html](h
 - 生物信息学和 Python 手册：[https://github.com/SiYangming/Bioinformatics-with-Python-Cookbook](https://github.com/SiYangming/Bioinformatics-with-Python-Cookbook)
 - 掌握用于生物信息学的 Python编程技巧：[https://github.com/SiYangming/Mastering-Python-for-Bioinformatics](https://github.com/SiYangming/Mastering-Python-for-Bioinformatics)
 - pandas学习书籍：[https://pandas.pydata.org/](https://pandas.pydata.org/)
+- python与生物信息：https://yangming6863.gitbook.io/python-bioinformatics/
 
 # python IDE
 
