@@ -212,3 +212,8 @@ ggplot2绘图书：[https://ggplot2-book.org/](https://ggplot2-book.org/)
 
 - ggraph：[https://ggraph.data-imaginist.com/](https://ggraph.data-imaginist.com/)
 - tidygraph：[https://tidygraph.data-imaginist.com/](https://tidygraph.data-imaginist.com/)
+- 
+
+## R常见问题
+
+R语言︱大数据集下运行内存管理：[https://blog.csdn.net/sinat_26917383/article/details/51114265](https://blog.csdn.net/sinat_26917383/article/details/51114265)
