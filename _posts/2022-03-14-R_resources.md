@@ -46,6 +46,8 @@ R统计学习：[ddalpiaz.github.io/r4sl/index.html](ddalpiaz.github.io/r4sl/ind
 
 R与生物信息：[https://yangming6863.gitbook.io/r-bioinformatics/](https://yangming6863.gitbook.io/r-bioinformatics/)
 
+Cookbook for R 中文版：[https://openbiox.github.io/Cookbook-for-R-Chinese/index.html](https://openbiox.github.io/Cookbook-for-R-Chinese/index.html)
+
 ## R和RStudio安装
 
 ### Rstudio
