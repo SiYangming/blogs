@@ -51,8 +51,6 @@ R语言实战（第2版）、《R in action》：[https://yangming6863.gitbook.i
 * [https://zh.book4you.org/book/1207649/2f95ad](https://zh.book4you.org/book/1207649/2f95ad)
 * [https://zh.book4you.org/book/5664419/322139](https://zh.book4you.org/book/5664419/322139)
 
-
-
 ### 高级
 
 《Statistics with R》
@@ -77,9 +75,9 @@ R语言实战（第2版）、《R in action》：[https://yangming6863.gitbook.i
 
 ### 生物信息学
 
-《R语言与Bioconductor生物信息学应用》作者:高山，欧剑虹
+《[R语言与Bioconductor生物信息学应用](https://yangming6863.gitbook.io/r-bioinformatics/v/r-bioconductor-bioinformatics-2014/)》作者:高山，欧剑虹
 
-《R Programming for Bioinformatics》 
+《[R Programming for Bioinformatics](https://yangming6863.gitbook.io/r-bioinformatics/v/r-programming-for-bioinformatics/r-ru-men)》 
 
 * R语言与统计生物信息学：
 
@@ -183,12 +181,14 @@ R, plotly, shinyR, plotly和shiny：[https://plotly-r.com/](https://plotly-r.com
 
 * R编程：[https://www.youtube.com/c/RProgrammingDDS](https://www.youtube.com/c/RProgrammingDDS)
 
-* 【生信技能树】生信人应该这样学R语言：https://www.bilibili.com/video/av25643438
-* 【生信技能树】公共数据库挖掘实例（基于R语言）：https://www.bilibili.com/video/av37568990
-* R语言入门生信应用基础课程：https://study.163.com/course/courseMain.htm?courseId=1209044861
-* R语言入门数据分析：https://ke.qq.com/course/366588
-* 生物信息学入门基础讲座的R部分：https://ke.qq.com/course/270841
-* PlottinginRforBiologists：https://gumroad.com/l/PlottinginRforBiologists
+* 【生信技能树】生信人应该这样学R语言：[https://www.bilibili.com/video/av25643438](https://www.bilibili.com/video/av25643438)
+* 【生信技能树】公共数据库挖掘实例（基于R语言）：[https://www.bilibili.com/video/av37568990](https://www.bilibili.com/video/av37568990)
+* R语言入门生信应用基础课程：[https://study.163.com/course/courseMain.htm?courseId=1209044861](https://study.163.com/course/courseMain.htm?courseId=1209044861)
+* R语言入门数据分析：[https://ke.qq.com/course/366588](https://ke.qq.com/course/366588)
+* 生物信息学入门基础讲座的R部分：[https://ke.qq.com/course/270841](https://ke.qq.com/course/270841)
+* PlottinginRforBiologists：[https://marianattestad.com/blog](https://marianattestad.com/blog)
+  * 数据：[https://github.com/SiYangming/R_for_biologists](https://github.com/SiYangming/R_for_biologists)
+  * 代码示例：https://colab.research.google.com/drive/1arTuu8URrnvvPsVhEgmetxF1-YkhHDRI?usp=sharing
 
 ## 12个ggplot2扩展包帮你实现更强大的可视化
 
