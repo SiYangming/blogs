@@ -151,6 +151,7 @@ ggplot2自从2007年推出以来，成为世界范围内下载最频繁、使用
 
 * [https://github.com/omarwagih/ggseqlogo](https://github.com/omarwagih/ggseqlogo)
 * 教程：[https://omarwagih.github.io/ggseqlogo/](https://omarwagih.github.io/ggseqlogo/)
+* [https://www.bioconductor.org/packages/release/bioc/html/seqLogo.html](https://www.bioconductor.org/packages/release/bioc/html/seqLogo.html)
 
 
 ## 图例向导函数
