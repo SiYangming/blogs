@@ -35,6 +35,25 @@ ggplot2是RStudio首席科学家Hadley开发用于绘图的R扩展包，ggplot2�
 - 发邮件到作者邮箱hadley@rice.edu
 - ggplot2绘图代码示例：[http://sthda.com/english/](http://sthda.com/english/)
 
+## R可视化教程
+
+- R图形示例：[https://r-graph-gallery.com/index.html](https://r-graph-gallery.com/index.html)
+- Data Visualization with ggplot2：[https://viz-ggplot2.rsquaredacademy.com/](https://viz-ggplot2.rsquaredacademy.com/)
+  - [https://github.com/rsquaredacademy-education/viz-ggplot2/](https://github.com/rsquaredacademy-education/viz-ggplot2/)
+- 《R Graphics》 
+- 《R Graphics Cookbook》 
+
+- 《Lattice:Multivariate Data Visualization with R》
+
+- 《ggplot2:Elegant Graphics for Data Analysis》
+
+- 《Data Mining with Rattle and R》
+
+- 《Interactive and Dynamic Graphics for Data Analysis With R and GGobi》
+
+
+* 现代统计图形：[https://bookdown.org/xiangyun/msg/](https://bookdown.org/xiangyun/msg/)
+
 ## 基于ggplot2的绘图扩展包
 
 基于ggplot2的扩展包：[https://exts.ggplot2.tidyverse.org/gallery/](https://exts.ggplot2.tidyverse.org/gallery/)
