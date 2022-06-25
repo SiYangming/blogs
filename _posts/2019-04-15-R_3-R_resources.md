@@ -57,22 +57,6 @@ R语言实战（第2版）、《R in action》：[https://yangming6863.gitbook.i
 
 《The R book》
 
-### 绘图与可视化
-
-《R Graphics》 
-
-《R Graphics Cookbook》 
-
-《Lattice:Multivariate Data Visualization with R》
-
-《ggplot2:Elegant Graphics for Data Analysis》
-
-《Data Mining with Rattle and R》
-
-《Interactive and Dynamic Graphics for Data Analysis With R and GGobi》
-
-* 现代统计图形：[https://bookdown.org/xiangyun/msg/](https://bookdown.org/xiangyun/msg/)
-
 ### 生物信息学
 
 《[R语言与Bioconductor生物信息学应用](https://yangming6863.gitbook.io/r-bioinformatics/v/r-bioconductor-bioinformatics-2014/)》作者:高山，欧剑虹
