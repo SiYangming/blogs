@@ -40,17 +40,16 @@ ggplot2是RStudio首席科学家Hadley开发用于绘图的R扩展包，ggplot2�
 - R图形示例：[https://r-graph-gallery.com/index.html](https://r-graph-gallery.com/index.html)
 - Data Visualization with ggplot2：[https://viz-ggplot2.rsquaredacademy.com/](https://viz-ggplot2.rsquaredacademy.com/)
   - [https://github.com/rsquaredacademy-education/viz-ggplot2/](https://github.com/rsquaredacademy-education/viz-ggplot2/)
-- 《R Graphics》 
-- 《R Graphics Cookbook》 
+- R Graphics：[https://zh.3lib.net/book/600913/34aec1](https://zh.3lib.net/book/600913/34aec1)
+- R Graphics Cookbook ：[https://r-graphics.org/](https://r-graphics.org/)
 
-- 《Lattice:Multivariate Data Visualization with R》
+- Lattice: Multivariate Data Visualization with R：[https://zh.3lib.net/book/1240019/03a5c5](https://zh.3lib.net/book/1240019/03a5c5)
 
 - ggplot2:Elegant Graphics for Data Analysis：[https://ggplot2-book.org/](https://ggplot2-book.org/)
 
-- 《Data Mining with Rattle and R》
+- Data Mining with Rattle and R：[https://zh.3lib.net/book/1170958/55bd1b](https://zh.3lib.net/book/1170958/55bd1b)
 
-- 《Interactive and Dynamic Graphics for Data Analysis With R and GGobi》
-
+- [Interactive and Dynamic Graphics for Data Analysis With R and GGobi](https://zh.3lib.net/book/824162/475630)
 
 * 现代统计图形：[https://bookdown.org/xiangyun/msg/](https://bookdown.org/xiangyun/msg/)
 * The Grammar of Graphics, Second Edition：[https://zh.book4you.org/book/1049726/5f16e5](https://zh.book4you.org/book/1049726/5f16e5)
@@ -59,7 +58,7 @@ ggplot2是RStudio首席科学家Hadley开发用于绘图的R扩展包，ggplot2�
 
 基于ggplot2的扩展包：[https://exts.ggplot2.tidyverse.org/gallery/](https://exts.ggplot2.tidyverse.org/gallery/)
 
-ggplot2自从2007年推出以来，成为世界范围内下载最频繁、使用最广泛的R包之一。许多人包括ggplot2的创建人Hadley Wickham将这一成功归功于ggplot2背后的哲学。这个软件包的灵感来源于Leland Wilkinson编写的《图形语法》一书，在此书中将graphs 分解成scales和layers，并将原始数据与表现形式分离开。
+ggplot2自从2007年推出以来，成为世界范围内下载最频繁、使用最广泛的R包之一。许多人包括ggplot2的创建人Hadley Wickham将这一成功归功于ggplot2背后的哲学。这个软件包的灵感来源于Leland Wilkinson编写的图形语法一书，在此书中将graphs 分解成scales和layers，并将原始数据与表现形式分离开。
 
 ### gganimate
 
@@ -67,7 +66,7 @@ ggplot2自从2007年推出以来，成为世界范围内下载最频繁、使用
 
 网址 ：[https://www.rdocumentation.org/packages/gganimate](https://www.rdocumentation.org/packages/gganimate)或 [https://github.com/thomasp85/gganimate](https://github.com/thomasp85/gganimate)（新版）
 
-简介： gganimate可以使图片以更加生动形象的动图展示出来，可以直观展示数据的动态变化过程，最后我们可以将动画保存为GIF、视频或动画网页，以便在RStudio或笔记本之外使用。如下面这个例子以动态图展现了历年来诺贝尔获奖者出生地的变化情况，《利用gganimate可视化全球范围R-Ladies（R社区性别多样性组织）发展情况》一文中有更详细的事例展示如何使用此包。
+简介： gganimate可以使图片以更加生动形象的动图展示出来，可以直观展示数据的动态变化过程，最后我们可以将动画保存为GIF、视频或动画网页，以便在RStudio或笔记本之外使用。如下面这个例子以动态图展现了历年来诺贝尔获奖者出生地的变化情况，利用gganimate可视化全球范围R-Ladies（R社区性别多样性组织）发展情况一文中有更详细的事例展示如何使用此包。
 
 ### ggthemes
 
