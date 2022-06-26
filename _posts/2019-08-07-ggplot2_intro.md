@@ -45,7 +45,7 @@ ggplot2是RStudio首席科学家Hadley开发用于绘图的R扩展包，ggplot2�
 
 - 《Lattice:Multivariate Data Visualization with R》
 
-- 《ggplot2:Elegant Graphics for Data Analysis》
+- ggplot2:Elegant Graphics for Data Analysis：[https://ggplot2-book.org/](https://ggplot2-book.org/)
 
 - 《Data Mining with Rattle and R》
 
@@ -53,6 +53,7 @@ ggplot2是RStudio首席科学家Hadley开发用于绘图的R扩展包，ggplot2�
 
 
 * 现代统计图形：[https://bookdown.org/xiangyun/msg/](https://bookdown.org/xiangyun/msg/)
+* The Grammar of Graphics, Second Edition：[https://zh.book4you.org/book/1049726/5f16e5](https://zh.book4you.org/book/1049726/5f16e5)
 
 ## 基于ggplot2的绘图扩展包
 
