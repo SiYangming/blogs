@@ -179,6 +179,12 @@ ggplot2自从2007年推出以来，成为世界范围内下载最频繁、使用
 * [https://dzhang32.github.io/ggtranscript/](https://dzhang32.github.io/ggtranscript/)
 * [https://github.com/dzhang32/ggtranscript/](https://github.com/dzhang32/ggtranscript/)
 
+## 拼图软件包
+
+cowplot：[https://wilkelab.org/cowplot/index.html](https://wilkelab.org/cowplot/index.html)
+
+patchwork：[https://patchwork.data-imaginist.com/index.html](https://patchwork.data-imaginist.com/index.html)
+
 ## 图例向导函数
 
 guide_legend() # 排版
