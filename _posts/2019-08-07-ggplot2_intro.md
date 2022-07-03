@@ -161,6 +161,8 @@ ggplot2自从2007年推出以来，成为世界范围内下载最频繁、使用
 - ggraph：[https://ggraph.data-imaginist.com/](https://ggraph.data-imaginist.com/)
 - tidygraph：[https://tidygraph.data-imaginist.com/](https://tidygraph.data-imaginist.com/)
 
+## 生物绘图
+
 ### gggenes：基因结构图
 
 * [https://wilkox.org/gggenes/](https://wilkox.org/gggenes/)
@@ -172,8 +174,13 @@ ggplot2自从2007年推出以来，成为世界范围内下载最频繁、使用
 * 教程：[https://omarwagih.github.io/ggseqlogo/](https://omarwagih.github.io/ggseqlogo/)
 * [https://www.bioconductor.org/packages/release/bioc/html/seqLogo.html](https://www.bioconductor.org/packages/release/bioc/html/seqLogo.html)
 
+### ggtranscript：转录本结构图
+
+* [https://dzhang32.github.io/ggtranscript/](https://dzhang32.github.io/ggtranscript/)
+* [https://github.com/dzhang32/ggtranscript/](https://github.com/dzhang32/ggtranscript/)
 
 ## 图例向导函数
+
 guide_legend() # 排版
 guide_colorbar() # 渐变色
 
