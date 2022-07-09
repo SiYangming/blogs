@@ -33,7 +33,7 @@ ggplot2是RStudio首席科学家Hadley开发用于绘图的R扩展包，ggplot2�
   
 - Rstudio的参考卡片：[https://www.rstudio.com/resources/cheatsheets/](https://www.rstudio.com/resources/cheatsheets/)
 - 发邮件到作者邮箱hadley@rice.edu
-- ggplot2绘图代码示例：[http://sthda.com/english/](http://sthda.com/english/)
+- ggplot2绘图代码示例（Statistical tools for high-throughput data analysis）：[http://sthda.com/english/](http://sthda.com/english/)
 
 ## R可视化教程
 
@@ -184,6 +184,10 @@ ggplot2自从2007年推出以来，成为世界范围内下载最频繁、使用
 cowplot：[https://wilkelab.org/cowplot/index.html](https://wilkelab.org/cowplot/index.html)
 
 patchwork：[https://patchwork.data-imaginist.com/index.html](https://patchwork.data-imaginist.com/index.html)
+
+## 在线画图工具
+
+HiPlot：[https://hiplot-academic.com/](https://hiplot-academic.com/)
 
 ## 图例向导函数
 
