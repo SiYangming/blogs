@@ -14,6 +14,8 @@ toc : true
 
 bookdown：[https://bookdown.org/](https://bookdown.org/)
 
+数据分析残卷：[https://bookdown.org/yufree/datadown/](https://bookdown.org/yufree/datadown/)
+
 ### 初级入门
 
 #### 《An Introduction to R》：R语言入门，R语言笔记:数据分析与绘图的编程环境
