@@ -185,6 +185,16 @@ cowplot：[https://wilkelab.org/cowplot/index.html](https://wilkelab.org/cowplot
 
 patchwork：[https://patchwork.data-imaginist.com/index.html](https://patchwork.data-imaginist.com/index.html)
 
+## 圈图
+
+[https://gjabel.wordpress.com/2014/06/05/world-cup-players-representation-by-league-system/](https://gjabel.wordpress.com/2014/06/05/world-cup-players-representation-by-league-system/)
+
+circlize（Bioniformatics (2014):btu393.）：[https://github.com/jokergoo/circlize](https://github.com/jokergoo/circlize)
+
+OmicCircos（Cancer informatics 13(2014):13.）：
+
+RCircos（BMC bioinformatics 14(2013):244.APA）：
+
 ## 在线画图工具
 
 HiPlot：[https://hiplot-academic.com/](https://hiplot-academic.com/)
