@@ -212,6 +212,11 @@ CRAN资料([http://cran.r-project.org](http://cran.r-project.org/))
 
   [https://rnotebook.io/anon/ea5bf6c2c84d6350/notebooks/R%E5%9F%BA%E7%A1%80.ipynb](https://rnotebook.io/anon/ea5bf6c2c84d6350/notebooks/R%E5%9F%BA%E7%A1%80.ipynb)
 
+## 在线教程
+
+* R coder：[https://r-coder.com/](https://r-coder.com/)
+* Statistical tools for high-throughput data analysis：[http://www.sthda.com/english/](http://www.sthda.com/english/)
+
 
 
 
