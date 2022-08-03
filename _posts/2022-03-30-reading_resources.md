@@ -25,6 +25,14 @@ wiki索引：[https://wikiindex.org/Welcome](https://wikiindex.org/Welcome)
 
 wiki对比：[https://wikiindex.org/Welcome](https://wikiindex.org/Welcome)
 
+## 医学资料
+
+### 百科
+
+* 向日葵儿童癌症百科：[https://www.curekids.cn](https://www.curekids.cn)
+* A+医学百科：[http://www.a-hospital.com/w/首页](http://www.a-hospital.com/w/首页)
+* 蒙医：[http://www.minwang.com.cn/mzwhzyk/674771/682626/682628/index.html](http://www.minwang.com.cn/mzwhzyk/674771/682626/682628/index.html)
+
 ## 格式转换
 
 - 各种网络格式转换：[https://codebeautify.org/](https://codebeautify.org/)
