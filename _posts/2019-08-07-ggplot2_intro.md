@@ -156,10 +156,16 @@ ggplot2自从2007年推出以来，成为世界范围内下载最频繁、使用
 
 简介： ggiraph可以给图片添加高级交互或动画，可以扩展现有的ggplot2条形图、散点图、方框图、地图等，并在悬停时显示数据信息(例如数据值或标签)，如下图所示。
 
+### ggExtra：为ggplot2图形四周添加直方图
+
+网址：[https://github.com/daattali/ggExtra](https://github.com/daattali/ggExtra)
+
 ### 网络图
 
 - ggraph：[https://ggraph.data-imaginist.com/](https://ggraph.data-imaginist.com/)
 - tidygraph：[https://tidygraph.data-imaginist.com/](https://tidygraph.data-imaginist.com/)
+
+
 
 ## 生物绘图
 
