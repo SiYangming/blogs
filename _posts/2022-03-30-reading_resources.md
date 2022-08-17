@@ -43,7 +43,7 @@ wiki对比：[https://wikiindex.org/Welcome](https://wikiindex.org/Welcome)
 
 ### 中文电子书资源
 
-- 书伴：https://bookfere.com/
+- 书伴：[https://bookfere.com/](https://bookfere.com/)
   - [kindle字典](https://bookfere.com/dict)
 - [维基文库](https://zh.wikisource.org/wiki/Wikisource:首页)
 - [维基百科](https://zh.wikipedia.org/)
@@ -51,6 +51,7 @@ wiki对比：[https://wikiindex.org/Welcome](https://wikiindex.org/Welcome)
 - [中國哲學書電子化計劃](https://ctext.org/zh)
 - [電子佛典集成](https://www.cbeta.org/)
 - [世界数字图书馆](https://www.wdl.org/zh/)
+- 早稻田大学图书馆：[https://waseda.primo.exlibrisgroup.com/discovery/search?vid=81SOKEI_WUNI:WINE](https://waseda.primo.exlibrisgroup.com/discovery/search?vid=81SOKEI_WUNI:WINE)
 - [数位典藏与学习电子书库](https://ebook.teldap.tw/index.jsp)
 - [医学维基期刊](https://zh.wikiversity.org/wiki/醫學維基期刊)
 - [维基教科书](https://zh.wikibooks.org/wiki/Wikibooks:首页)
@@ -70,7 +71,7 @@ wiki对比：[https://wikiindex.org/Welcome](https://wikiindex.org/Welcome)
 - [虫部落](https://www.chongbuluo.com/)
 - [知轩藏书](http://www.zxcs.info/)
 - [书格](https://new.shuge.org/)
-- 调色板：https://www.tspweb.com/
+- 调色板：[https://www.tspweb.com/](https://www.tspweb.com/)
 
 [亚马逊内容设备管理](https://www.amazon.cn/mn/dcw/myx.html/ref=kinw_myk_redirect#/home/content/pdocs/dateDsc/)
 
