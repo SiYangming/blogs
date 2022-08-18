@@ -66,6 +66,8 @@ wiki对比：[https://wikiindex.org/Welcome](https://wikiindex.org/Welcome)
 - [虫部落](https://www.chongbuluo.com/)
 - [知轩藏书](http://www.zxcs.info/)
 - 调色板：[https://www.tspweb.com/](https://www.tspweb.com/)
+- 读书：[https://www.dushu.com/](https://www.dushu.com/)
+- 开放文学剧本：http://open-lit.com/index_readme.php
 
 ## 中文古籍善本
 
@@ -79,6 +81,7 @@ wiki对比：[https://wikiindex.org/Welcome](https://wikiindex.org/Welcome)
 - 国会国立图书馆：[https://dl.ndl.go.jp/](https://dl.ndl.go.jp/)
 - 国立公文图书馆：[https://www.digital.archives.go.jp/DAS/meta/default](https://www.digital.archives.go.jp/DAS/meta/default)
 - 古籍论坛：[https://bbs.ugxsd.com/](https://bbs.ugxsd.com/)
+- 影印古籍：[https://cnkgraph.com/Book](https://cnkgraph.com/Book)
 
 [亚马逊内容设备管理](https://www.amazon.cn/mn/dcw/myx.html/ref=kinw_myk_redirect#/home/content/pdocs/dateDsc/)
 
