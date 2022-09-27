@@ -29,126 +29,35 @@ toc : true
 
 # 基因表达分析工具
 
-
-
-- 
+- CARMAweb：https://carmaweb.genome.tugraz.at/carma/index.jsp
 
   
 
-  CARMAweb：https://carmaweb.genome.tugraz.at/carma/index.jsp
+- **BART：**[**https://bitbucket.org/Luisa_amaral/bart/src/master/**](https://bitbucket.org/Luisa_amaral/bart/src/master/)
 
-  
+  - [**https://bitbucket.org/Luisa_amaral/smart/src/master/**](https://bitbucket.org/Luisa_amaral/smart/src/master/)
 
-- 
+- GEO2R芯片（GEO在线分析工具）：https://www.ncbi.nlm.nih.gov/geo/geo2r/
 
-  
+- GEPIA（基因表达生存分析）：http://gepia.cancer-pku.cn/index.html
 
-  **BART：**[**https://bitbucket.org/Luisa_amaral/bart/src/master/**](https://bitbucket.org/Luisa_amaral/bart/src/master/)
+- GEPIA2：http://gepia2.cancer-pku.cn/#index
 
-  - 
+- NetworkAnalyst -- comprehensive gene expression profiling & network visual analytics：https://www.networkanalyst.ca/NetworkAnalyst/home.xhtml
 
-    
+- EcoOmicsAnalyst -- a universal platform for RNAseq annotation and quantificationEcoOmicsAnalyst -- a universal platform for RNAseq annotation and quantification：https://www.ecoomicsanalyst.ca/#home
 
-    [**https://bitbucket.org/Luisa_amaral/smart/src/master/**](https://bitbucket.org/Luisa_amaral/smart/src/master/)
+- BioJupies Automatically Generates RNA-seq Data Analysis Notebooks：https://maayanlab.cloud/biojupies/
 
-    
+- IRIS：https://bmbls.bmi.osumc.edu/IRIS/
 
-    
+  - Alternative server: http://bmbl.sdstate.edu/IRIS/
 
-  
+  - https://github.com/OSU-BMBL/iris/
 
-- 
+- iDEP：http://bioinformatics.sdstate.edu/idep95/
 
-  
-
-  GEO2R芯片（GEO在线分析工具）：https://www.ncbi.nlm.nih.gov/geo/geo2r/
-
-  
-
-- 
-
-  
-
-  GEPIA（基因表达生存分析）：http://gepia.cancer-pku.cn/index.html
-
-  
-
-- 
-
-  
-
-  GEPIA2：http://gepia2.cancer-pku.cn/#index
-
-  
-
-- 
-
-  
-
-  NetworkAnalyst -- comprehensive gene expression profiling & network visual analytics：https://www.networkanalyst.ca/NetworkAnalyst/home.xhtml
-
-  
-
-- 
-
-  
-
-  EcoOmicsAnalyst -- a universal platform for RNAseq annotation and quantificationEcoOmicsAnalyst -- a universal platform for RNAseq annotation and quantification：https://www.ecoomicsanalyst.ca/#home
-
-  
-
-- 
-
-  
-
-  BioJupies Automatically Generates RNA-seq Data Analysis Notebooks：https://maayanlab.cloud/biojupies/
-
-  
-
-- 
-
-  
-
-  IRIS：https://bmbls.bmi.osumc.edu/IRIS/
-
-  - 
-
-    
-
-    Alternative server: http://bmbl.sdstate.edu/IRIS/
-
-    
-
-  - 
-
-    
-
-    https://github.com/OSU-BMBL/iris/
-
-    
-
-    
-
-  
-
-- 
-
-  
-
-  iDEP：http://bioinformatics.sdstate.edu/idep95/
-
-  - 
-
-    
-
-    https://idepsite.wordpress.com/
-
-    
-
-    
-
-  
-
+  - https://idepsite.wordpress.com/
 
 
 ### miRNA分析工具
@@ -290,6 +199,14 @@ TCIA The Cancer Immunome Atlas（癌症免疫数据库）：[https://tcia.at/hom
 Bioinformatics research is often difficult to do with commercial software. The Open Source BioPerl, BioPython and BioJava projects provide toolkits with multiple functionality that make it easier to create customised pipelines or analysis. This review briefly compares the quirks of the underlying languages and the functionality, documentation, utility and relative advantages of the Bio counterparts, particularly from the point of view of the beginning biologist programmer.
 
 [1]杨子恒. DNA进化马尔可夫过程模型的评价与推广[J]. 遗传学报,1994(01):17-23.
+
+### BioPython
+
+Github站点: [https://github.com/biopython/biopython](https://github.com/biopython/biopython)
+
+官网：[https://biopython.org/](https://biopython.org/)
+
+中文教程：https://github.com/SiYangming/files/tree/main/docs/BioPython
 
 ## RNACocktail
 
