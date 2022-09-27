@@ -140,3 +140,5 @@ R语言可视化（二十七）：序列logo图绘制: https://www.jianshu.com/p
 Motif中的PWM矩阵：https://www.jianshu.com/p/b1abf71c78cf?clicktime=1577491465
 
 构建PSSM的步骤：http://www.nohup.cc/article/112/#menu_index_5
+
+Position-specific score matrices：[https://www.cs.rice.edu/~ogilvie/comp571/2018/09/11/pssm.html](https://www.cs.rice.edu/~ogilvie/comp571/2018/09/11/pssm.html)
