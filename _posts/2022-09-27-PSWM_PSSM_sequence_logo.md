@@ -135,10 +135,12 @@ ggseqlogo：[https://github.com/omarwagih/ggseqlogo](https://github.com/omarwagi
 
 ## 参考链接
 
-R语言可视化（二十七）：序列logo图绘制: https://www.jianshu.com/p/773e69e37b1f/
+R语言可视化（二十七）：序列logo图绘制: [https://www.jianshu.com/p/773e69e37b1f/](https://www.jianshu.com/p/773e69e37b1f/)
 
-Motif中的PWM矩阵：https://www.jianshu.com/p/b1abf71c78cf?clicktime=1577491465
+Motif中的PWM矩阵：[https://www.jianshu.com/p/b1abf71c78cf?clicktime=1577491465](https://www.jianshu.com/p/b1abf71c78cf?clicktime=1577491465)
 
-构建PSSM的步骤：http://www.nohup.cc/article/112/#menu_index_5
+构建PSSM的步骤：[http://www.nohup.cc/article/112/#menu_index_5](http://www.nohup.cc/article/112/#menu_index_5)
 
 Position-specific score matrices：[https://www.cs.rice.edu/~ogilvie/comp571/2018/09/11/pssm.html](https://www.cs.rice.edu/~ogilvie/comp571/2018/09/11/pssm.html)
+
+R语言-制作motif的PWM：[https://www.jianshu.com/p/22dd29a423d9](https://www.jianshu.com/p/22dd29a423d9)
