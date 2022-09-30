@@ -38,6 +38,7 @@ wiki对比：[https://wikiindex.org/Welcome](https://wikiindex.org/Welcome)
   - [嚴氏濟生方](https://jicheng.tw/tcm/book/嚴氏濟生方/index.html)
 * [新野医学网](https://www.med2.cn/)
 * [医学维基期刊](https://zh.wikiversity.org/wiki/醫學維基期刊)
+* 岐黄：[https://www.qihuang.vip/](https://www.qihuang.vip/)
 
 
 
