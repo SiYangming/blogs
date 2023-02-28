@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "使用XGBoost进行回归分析"
-date:   2019-05-15
+date:   2023-02-28
 tags: [转载,机器学习,AI,人工智能,python,xgboost]
 comments: true
 author: Jason Brownlee
