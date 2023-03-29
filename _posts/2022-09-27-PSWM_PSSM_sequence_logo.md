@@ -43,14 +43,19 @@ AAGGTAAGT
 ## 构建位置概率矩阵(`PPM`)
 
 通过`PFM`求`PPM`，只需要下面的公式：
-
-*[Math Processing Error]*
-
+$$
+M_{k,j}=\frac{1}{N}\sum_{i=1}^{N}I(X_{i,j}=k)
+$$
 其中，`i`为行号，`j`为列号，即：
 
-*[Math Processing Error]*
+$$
+i\in(1,2,...,N),j\in(1,2,...,N)
+$$
+
 
 且*`I`*是指示函数，即：
+
+
 $$
 I_{X_{i,j}=k}=
 \begin{cases}
@@ -58,6 +63,8 @@ I_{X_{i,j}=k}=
 0 ,if X_{i,j}\not=k;
 \end{cases}
 $$
+
+
 则1.1中的`PFM`相应的`PPM`为：
 
 ![image-20220927190545066](../images/2022-09-27-PSWM_PSSM_sequence_logo/image-20220927190545066.png)
