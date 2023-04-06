@@ -23,7 +23,6 @@ PWM矩阵是表示motif的一种方式，全称是position-specific weight matri
 位置频度矩阵(`position frequency matrix`)的构建的思路还是比较简单的，这里仍然以维基百科的例子介绍。`DNA`序列如下表所示：
 
 ```
-
 GAGGTAAAC
 TCCGTAAGT
 CAGGTTGGA
@@ -36,20 +35,42 @@ TGTGTGAGT
 AAGGTAAGT
 ```
 
-共有`10`行`9`列，则相应的`PFM`为*[Math Processing Error]*
+共有`10`行`9`列，则相应的`PFM`为
+$$
+M=\begin{matrix}
+A\\ 
+C\\ 
+G\\ 
+T\end{matrix}\begin{bmatrix}
+3 &6  &1  &0  &0  &6  &7  &2  &1 \\ 
+2 &2  &1  &0  &0  &2  &1  &1  &2 \\ 
+1 &1  &7  &10 &0  &1  &1  &5  &1 \\ 
+4 &1  &1  &0  &10 &1  &1  &2  &6 
+\end{bmatrix}
+$$
+
 
 这个矩阵的列数也是`9`，而每一列的数各自加起来正好是`10`，也就是`DNA`序列的行数。这样，构建矩阵的原理就很清晰了：**计算每一列中的各核苷酸的数量，然后存入矩阵的相应位置**。
 
 ## 构建位置概率矩阵(`PPM`)
 
 通过`PFM`求`PPM`，只需要下面的公式：
-$$
-M_{k,j}=\frac{1}{N}\sum_{i=1}^{N}I(X_{i,j}=k)
-$$
-其中，`i`为行号，`j`为列号，即：
+
 
 $$
-i\in(1,2,...,N),j\in(1,2,...,N)
+M_{k,j}=\frac{1}{N}\sum_{i=1}^N I(X_{i,j}=k)
+$$
+
+
+其中，`i`为行号，`j`为列号，即：
+
+
+$$
+i\in \begin{pmatrix}
+1, &2,  &\cdots,   &N 
+\end{pmatrix},j\in \begin{pmatrix}
+1, &2,  &\cdots,   &l 
+\end{pmatrix}.
 $$
 
 
@@ -57,17 +78,31 @@ $$
 
 
 $$
-I_{X_{i,j}=k}=
-\begin{cases}
-1 ,if X_{i,j}=k;\\
-0 ,if X_{i,j}\not=k;
+\mathbf{\mathit{I}}_(X_{i,j}=k) =
+\begin{cases} 
+1 &,\text{if } X_{i,j} = k ; \\
+0 &,\text{if } X_{i,j} \neq k
+ .
 \end{cases}
 $$
 
 
 则1.1中的`PFM`相应的`PPM`为：
 
-![image-20220927190545066](../images/2022-09-27-PSWM_PSSM_sequence_logo/image-20220927190545066.png)
+
+$$
+M=\begin{matrix}
+A\\ 
+C\\ 
+G\\ 
+T\end{matrix}\begin{bmatrix}
+0.3 &0.6  &0.1  &0.0  &0.0  &0.6  &0.7  &0.2  &0.1 \\ 
+0.2 &0.2  &0.1  &0.0  &0.0  &0.2  &0.1  &0.1  &0.2 \\ 
+0.1 &0.1  &0.7  &1.0  &0.0  &0.1  &0.1  &0.5  &0.1 \\ 
+0.4 &0.1  &0.1  &0.0  &1.0  &0.1  &0.1  &0.2  &0.6 
+\end{bmatrix}
+$$
+
 
 在这里有一点需要**特别注意**：
 
@@ -123,9 +158,13 @@ URL http://jaspar.genereg.net/matrix/MA0001.1
 ```
 
 最后通过以下公式将PPM转换为PWM：
+
+
 $$
-M_{PWM}=ln(\frac{M_{PPM}}{b})
+M_{PWM}=ln\left ( \frac{M_{PPM}}{b} \right )
 $$
+
+
 其中M是指的这个位点的probability，b是指的background (上图的background为0.25)。上图中CTCF的PPM转化为PWM为.
 
 那么1.2中的`PPM`相对应的`PWM`为：
@@ -150,4 +189,9 @@ Motif中的PWM矩阵：[https://www.jianshu.com/p/b1abf71c78cf?clicktime=1577491
 
 Position-specific score matrices：[https://www.cs.rice.edu/~ogilvie/comp571/2018/09/11/pssm.html](https://www.cs.rice.edu/~ogilvie/comp571/2018/09/11/pssm.html)
 
-R语言-制作motif的PWM：[https://www.jianshu.com/p/22dd29a423d9](https://www.jianshu.com/p/22dd29a423d9)
+R语言-制作motif的PWM：[https://www.jianshu.com/p/22dd29a423d9
+
+[](https://www.jianshu.com/p/22dd29a423d9)
+
+[一种基于点互信息熵的特征提取算法](http://www.nohup.cc/article/111/)
+
