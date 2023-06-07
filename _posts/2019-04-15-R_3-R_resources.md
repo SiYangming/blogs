@@ -12,6 +12,8 @@ toc : true
 
 R语言实战（第2版）、《R in action》：[https://yangming6863.gitbook.io/r-bioinformatics/v/r-in-action/](https://yangming6863.gitbook.io/r-bioinformatics/v/r-in-action/)
 
+R cookbook：http://www.cookbook-r.com/
+
 ### 生物信息学
 
 《[R语言与Bioconductor生物信息学应用](https://yangming6863.gitbook.io/r-bioinformatics/v/r-bioconductor-bioinformatics-2014/)》作者:高山，欧剑虹
